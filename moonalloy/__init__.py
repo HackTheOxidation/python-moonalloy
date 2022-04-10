@@ -1,3 +1,1 @@
-from linalg import Array
-
-arr = Array()
+from .linalg import Array # noqa

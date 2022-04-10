@@ -1,2 +1,4 @@
+"""
+Module containing wrapper classes for linear algebra objects in moonalloy.
+"""
 from .array import Array # noqa
-from ..ffi import moonalloy_ffi # noqa
