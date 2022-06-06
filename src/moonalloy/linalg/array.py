@@ -139,7 +139,7 @@ class Array:
         Multiplies this array with another array.
         """
         if self._len != other._len:
-n            raise ArithmeticError("Moonalloy - Error: trying to multiply arrays with different lengths - operation is undefined.")
+            raise ArithmeticError("Moonalloy - Error: trying to multiply arrays with different lengths - operation is undefined.")
         new_arr = array_mult(self._array_ptr, other._array_ptr)
 
         result = Array()
